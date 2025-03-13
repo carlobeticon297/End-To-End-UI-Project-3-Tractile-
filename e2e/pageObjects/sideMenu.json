@@ -1,0 +1,12 @@
+{
+  "facilityMenu": "[href='/admin/facility']",
+  "catalogMenu": "[href='/admin/catalog']",
+  "recipeMenu": "[href='/admin/recipes']",
+  "jobsMenu": "[href='/jobs']",
+  "flow": "[href='/flow-editor']",
+  "floor": "[href='/floor']",
+  "purchaseOrder": "[href='/purchase-orders']",
+  "orders": "[href='/orders']",
+  "shipments": "[href='/shipments']",
+  "planning": "[href='/planning']"
+}

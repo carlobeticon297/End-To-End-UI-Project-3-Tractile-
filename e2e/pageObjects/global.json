@@ -1,0 +1,6 @@
+{
+  "banner": "[data-testid='banner']",
+  "backBtn": "[data-testid^='back-']",
+  "filterTabs": "[data-testid='filter-tabs']",
+  "modalSurface": "[data-testid='modal-surface']"
+}

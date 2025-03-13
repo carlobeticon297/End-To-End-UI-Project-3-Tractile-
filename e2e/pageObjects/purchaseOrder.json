@@ -1,0 +1,22 @@
+{
+  "addPoBtn": "[data-testid='create-new-purchase-orders']",
+  "poIdInput": "[data-testid='shortId-input']",
+  "selectSupplier": "[data-testid='selectSupplierInput']",
+  "selectStatus": "[data-testid='select-status']",
+  "selectComProfID": "[data-testid='select-companyProfileId']",
+  "purchaseOrderAddItemBtn": "[data-testid='btn-purchase-orders-add-item-to-purchase-order']",
+  "savePurchaseOrder": "[data-testid='save-purchaseOrder']",
+  "poBackBtn": "[data-testid='back-purchaseOrder']",
+  "deletePOBtn": "[data-testid='delete-purchaseOrder']",
+  "purchaseOrderTotalCost": "[data-testid='purchase-order-total']",
+  "summaryCard": "[data-testid='summary-card']",
+  "transportCard": "[data-testid='transport-details-card']",
+  "summaryOrderedItems": "[data-testid='ordered-item']",
+  "summaryTotalProgress": "[data-testid='total-progress']",
+  "summaryTotalCost": "[data-testid='purchase-order-total']",
+  "poDetailsTabs": "[data-testid='Details']",
+  "poActiveTab": "[data-testid='Active']",
+  "emailAddressInput": "[data-testid='emailAddresses-input']",
+  "emailSubjectInput": "[data-testid='subject-input']",
+  "emailMessageInput": "[data-testid='message-input']"
+}

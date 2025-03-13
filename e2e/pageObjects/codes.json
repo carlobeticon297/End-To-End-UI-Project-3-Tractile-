@@ -1,0 +1,8 @@
+{
+  "codesTab": "[data-testid='Codes']",
+  "newCodeBtn": "[data-testid='add-in-filter-codes']",
+  "templateNameInput": "[data-testid='name-input']",
+  "rendererSurface": "[data-testid='rendererSurface']",
+  "saveCodeBtn": "[data-testid='save-code']",
+  "deleteCodeBtn": "[data-testid='delete-code']"
+}

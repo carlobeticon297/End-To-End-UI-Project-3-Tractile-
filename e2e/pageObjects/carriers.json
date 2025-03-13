@@ -1,0 +1,14 @@
+{
+  "carriersTab": "[data-testid='Carriers']",
+  "addCarrierBtn": "[data-testid='add-in-filter-carriers']",
+  "companyNameInput": "[data-testid='companyName-input']",
+  "phoneNumberInput": "[data-testid='phoneNumber-input']",
+  "addressInput": "[data-testid='address-input']",
+  "emailInput": "[data-testid='email-input']",
+  "cityInput": "[data-testid='city-input']",
+  "provinceInput": "[data-testid='province-input']",
+  "countryInput": "[data-testid='country-input']",
+  "postalCodeInput": "[data-testid='postalCode-input']",
+  "saveCarrierBtn": "[data-testid='save-carrier']",
+  "deleteCarrierBtn": "[data-testid='delete-carrier']"
+}

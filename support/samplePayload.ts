@@ -1,0 +1,743 @@
+// Catalog Payload
+export const forOutputItem = {
+  variant: "product",
+  name: "New Mango Shake",
+  description: "ete purposes only",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  price: 0,
+  shipPercentage: 0,
+  cost: 0,
+  unitOfMeasurement: "unit",
+  categoryType: "Manual",
+  suppliers: [],
+  attributes: [],
+  consumptionStrategy: "FIFO",
+  casingOptions: [],
+  receiveInitialStatus: "active",
+  weightPerUnit: "10 g",
+  decimalPrecision: "0.000001",
+  shelfLife: 20,
+  shelfLifeAlertDays: 15,
+  minimumStockAmount: 18,
+  customerCatalogItems: [],
+  customerProductPrices: [],
+  customerProductShipPercentages: [],
+  supplierProductPrices: [],
+  customers: [],
+  categorizations: [],
+};
+
+export const productData = {
+  name: "ETE Testing Bar 3.0",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "unit",
+  suppliers: [],
+  attributes: [],
+  casingOptions: [],
+  weightPerUnit: "0 lbs",
+  decimalPrecision: "0.000001",
+  categoryType: "MANUAL",
+  consumptionStrategy: "FIFO",
+  variant: "product",
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  codePrefix: "TTBARCLM20",
+  shipPercentage: 0,
+  autoBundleQty: null,
+  price: 9,
+};
+
+export const ingredientWithAttributes = {
+  name: "Item with Attributes",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "unit",
+  suppliers: [],
+  attributes: [
+    { id: "0", name: "Name", type: "string", required: false },
+    { id: "1", name: "Boolean", type: "boolean", required: false },
+  ],
+  casingOptions: [],
+  weightPerUnit: "0 lbs",
+  decimalPrecision: "0.000001",
+  categoryType: "MANUAL",
+  consumptionStrategy: "FIFO",
+  variant: "ingredient",
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  codePrefix: "TTBARCLM20",
+  shipPercentage: 0,
+  autoBundleQty: null,
+  price: 0,
+};
+
+export const inputsItemsIngredient = {
+  name: "Item for Decimal",
+  variant: "ingredient",
+  description: "ete purposes only",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  price: 3.4,
+  shipPercentage: 0,
+  cost: 0,
+  unitOfMeasurement: "unit",
+  categoryType: "Manual",
+  suppliers: [],
+  attributes: [],
+  consumptionStrategy: "FIFO",
+  casingOptions: [],
+  receiveInitialStatus: "active",
+  weightPerUnit: "10 g",
+  decimalPrecision: "0.000001",
+  shelfLife: 20,
+  shelfLifeAlertDays: 15,
+  minimumStockAmount: 18,
+  customerCatalogItems: [],
+  customerProductPrices: [],
+  customerProductShipPercentages: [],
+  supplierProductPrices: [],
+  customers: [],
+  categorizations: [],
+};
+
+export const ingredientChemical = {
+  name: "ETE Chemical",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "unit",
+  price: 2.5,
+  customerCatalogItems: [],
+  customerProductPrices: null,
+  customerProductShipPercentages: [],
+  supplierProductPrices: null,
+  attributes: [],
+  consumptionStrategy: "FIFO",
+  weightPerUnit: "0 lbs",
+  categoryType: "Manual",
+  casingOptions: [],
+  suppliers: [],
+  decimalPrecision: "0.000001",
+  lotCodeTemplate: null,
+  variant: "chemical",
+  description: null,
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  codePrefix: null,
+  lotCodeTemplateId: null,
+  shelfLife: null,
+  shelfLifeAlertDays: null,
+  minimumStockAmount: null,
+  upc: null,
+  productCode: null,
+  labelType: "internal_external_combined",
+  length: null,
+  width: null,
+  depth: null,
+  shipPercentage: 0,
+  barcodeType: "upc-a",
+  categorizations: [],
+  unitsPerInner: null,
+  innersPerCase: null,
+  casesPerTier: null,
+  tiersPerPallet: null,
+  unitsPerBox: null,
+  unitsPerCase: null,
+  unitsPerPallet: null,
+};
+
+export const ingredientPackaging = {
+  name: "ETE Packaging",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "unit",
+  categoryType: "Manual",
+  price: 2.99,
+  customerCatalogItems: [],
+  customerProductPrices: null,
+  customerProductShipPercentages: [],
+  supplierProductPrices: null,
+  attributes: [],
+  consumptionStrategy: "FIFO",
+  weightPerUnit: "0 lbs",
+  casingOptions: [],
+  suppliers: [],
+  decimalPrecision: "0.000001",
+  lotCodeTemplate: null,
+  variant: "packaging",
+  description: null,
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  codePrefix: null,
+  lotCodeTemplateId: null,
+  shelfLife: null,
+  shelfLifeAlertDays: null,
+  minimumStockAmount: null,
+  upc: null,
+  productCode: null,
+  labelType: "internal_external_combined",
+  length: null,
+  width: null,
+  depth: null,
+  shipPercentage: 0,
+  barcodeType: "upc-a",
+  unitsPerInner: null,
+  innersPerCase: null,
+  casesPerTier: null,
+  tiersPerPallet: null,
+  unitsPerBox: null,
+  unitsPerCase: null,
+  unitsPerPallet: null,
+  categorizations: [],
+};
+
+export const outputPackagedItem = {
+  name: "Ete package item",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "unit",
+  suppliers: [],
+  attributes: [],
+  casingOptions: [],
+  weightPerUnit: "0 lbs",
+  decimalPrecision: `0.000001`,
+  categoryType: "MANUAL",
+  consumptionStrategy: "FIFO",
+  lotCodeTemplate: null,
+  variant: "packagedProduct",
+  description: null,
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  codePrefix: null,
+  lotCodeTemplateId: null,
+  shelfLife: null,
+  shelfLifeAlertDays: null,
+  minimumStockAmount: null,
+  upc: null,
+  productCode: null,
+  length: null,
+  width: null,
+  depth: null,
+  shipPercentage: 0,
+  autoBundleQty: null,
+  price: 0,
+  customerProductPrices: null,
+  supplierProductPrices: null,
+  customerProductShipPercentages: null,
+  barcodeType: null,
+  labelType: null,
+  unitsPerInner: null,
+  innersPerCase: null,
+  casesPerTier: null,
+  tiersPerPallet: null,
+  unitsPerBox: null,
+  unitsPerCase: null,
+  unitsPerPallet: null,
+  categorizations: null,
+};
+
+export const productWithAttributes = {
+  name: "Product 1",
+  traits: ["inceptable", "moveable", "consumable", "producible"],
+  unitOfMeasurement: "pound",
+  price: 0,
+  customerCatalogItems: [],
+  categoryType: "Manual",
+  customerProductPrices: null,
+  customerProductShipPercentages: [],
+  supplierProductPrices: null,
+  attributes: [
+    {
+      id: "0",
+      name: "MSC Certified",
+      type: "boolean",
+      required: true,
+    },
+    {
+      id: "1",
+      name: "Test Text",
+      type: "string",
+      required: false,
+    },
+    {
+      id: "2",
+      name: "Test Number",
+      type: "number",
+      required: false,
+    },
+  ],
+  consumptionStrategy: "FIFO",
+  weightPerUnit: "0 lbs",
+  casingOptions: [],
+  suppliers: [],
+  decimalPrecision: "0.000001",
+  lotCodeTemplate: null,
+  variant: "product",
+  description: null,
+  receiveInitialStatus: "active",
+  convertToUnit: null,
+  shelfLife: null,
+  shelfLifeAlertDays: null,
+  minimumStockAmount: null,
+  upc: null,
+  productCode: null,
+  length: null,
+  width: null,
+  depth: null,
+  shipPercentage: 0,
+  codePrefix: null,
+  lotCodeTemplateId: null,
+  unitsPerInner: null,
+  innersPerCase: null,
+  casesPerTier: null,
+  tiersPerPallet: null,
+  unitsPerBox: null,
+  unitsPerCase: null,
+  unitsPerPallet: null,
+  categorizations: null,
+};
+
+// Recipe Payload
+export const productionRecipePayload = {
+  name: "ETE Production Recipe",
+  description: "For ETE only",
+  inputs: [
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.56 cu",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.50 lbs",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.56 l",
+      required: true,
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wastePortion: {
+        enabled: false,
+      },
+      ignoreScale: false,
+    },
+  ],
+  instructions: [],
+  processType: "regular",
+  type: "production",
+};
+
+export const recipePayload = {
+  name: "Ally Mango",
+  description: "Sweet Mango",
+  inputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      name: "ETE Testing Bar 3.0",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+    {
+      name: "ETE Testing Bar 3.0",
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      required: true,
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wastePortion: {
+        enabled: false,
+      },
+      ignoreScale: false,
+      name: "New Mango Shake Output",
+    },
+  ],
+  instructions: [],
+  processType: "regular",
+  type: "production",
+};
+
+export const recipePayloadWithAttributes = {
+  name: "Recipe with Attributes",
+  inputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "2 l",
+      name: "10% Cream",
+      requirements: {
+        enabled: true,
+        attributes: [
+          {
+            name: "Name",
+            type: "string",
+            comparator: "equal",
+            value: "Name",
+            enabled: true,
+          },
+          {
+            name: "Boolen",
+            type: "boolean",
+            comparator: "equal",
+            value: "",
+            enabled: false,
+          },
+        ],
+      },
+      variance: { enabled: false, under: 0, over: 0 },
+      wasteRemainder: { enabled: false, threshold: 0 },
+      ignoreScale: false,
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      required: true,
+      name: "New Mango Shake",
+      requirements: { enabled: false, attributes: [] },
+      variance: { enabled: false, under: 0, over: 0 },
+      wastePortion: { enabled: false },
+      ignoreScale: false,
+    },
+  ],
+  instructions: [],
+  processType: "regular",
+  type: "production",
+  description: null,
+};
+
+export const recipePlanningPayload = {
+  name: "ETE Preparation Recipe",
+  description: "For ETE only",
+  inputs: [
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.56 cu",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.25 lbs",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      name: "",
+      correlationId: "",
+      quantity: "0.56 l",
+      required: true,
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wastePortion: {
+        enabled: false,
+      },
+      ignoreScale: false,
+    },
+  ],
+  instructions: [],
+  processType: "regular",
+  type: "preparation",
+};
+
+export const recipeWithInputsAsProduct = {
+  name: "Test Recip",
+  inputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      name: "",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+      ignoreScale: false,
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "1 U",
+      required: true,
+      name: "",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wastePortion: {
+        enabled: false,
+      },
+      ignoreScale: false,
+    },
+  ],
+  instructions: [],
+  processType: "regular",
+  type: "production",
+};
+
+export const recipeDeconsPayload = {
+  name: "Test Decons",
+  inputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "2.25 lbs",
+      name: "",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wasteRemainder: {
+        enabled: false,
+        threshold: 0,
+      },
+    },
+  ],
+  outputs: [
+    {
+      correlationType: "inventory",
+      correlationId: "",
+      quantity: "5 U",
+      required: false,
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      wastePortion: {
+        enabled: false,
+      },
+      name: "",
+      requirements: {
+        enabled: false,
+        attributes: [
+          {
+            name: "Halal",
+            type: "boolean",
+            comparator: "equal",
+            value: "",
+            enabled: false,
+          },
+        ],
+      },
+      deconstruction: {
+        targetPercent: 20,
+      },
+    },
+    {
+      name: "",
+      correlationType: "inventory",
+      correlationId: "889c8015-ea9b-43da-af02-606033fd6d77",
+      quantity: "4.2 lbs",
+      requirements: {
+        enabled: false,
+        attributes: [],
+      },
+      required: false,
+      variance: {
+        enabled: false,
+        under: 0,
+        over: 0,
+      },
+      deconstruction: {
+        targetPercent: 80,
+      },
+    },
+  ],
+  instructions: [
+    {
+      name: "ETE Test Instrunction",
+      order: 1,
+    },
+  ],
+  type: "deconstruction",
+  processType: "regular",
+  isContinuous: false,
+};
+
+export const codesPayload = {
+  name: "ETE CODES FOR BUNDLE",
+  definition: [
+    {
+      type: "day_of_month_digit",
+    },
+    {
+      type: "month_digit_padded",
+    },
+    {
+      type: "year_short_digit",
+    },
+    {
+      type: "named_match",
+      name: "bundle",
+      enum: ["bundle"],
+    },
+  ],
+};
+
+export const codesPayloadForProduction = {
+  name: "Production Codes Template",
+  definition: [
+    {
+      type: "day_of_month_digit",
+    },
+    {
+      type: "month_digit_padded",
+    },
+    {
+      type: "year_short_digit",
+    },
+    {
+      type: "named_match",
+      name: "production",
+      enum: ["production"],
+    },
+  ],
+};
+
+// Employee Payload
+export const employeePayload = {
+  firstName: "Shane",
+  lastName: "QA",
+  type: "MAINTENANCE",
+};

@@ -1,0 +1,20 @@
+{
+  "createNewRecipeBtn": "[data-testid='create-new-recipes']",
+  "recipeNameInput": "[data-testid='name-input']",
+  "recipeTypeSelect": "[data-testid='select-type']",
+  "recipeDescInput": "[data-testid='description-input']",
+  "recipeInputsItemCard": "[data-testid='inputs-item-card']",
+  "recipeOutputsItemCard": "[data-testid='outputs-item-card']",
+  "addInstructionBtn": "[data-testid='common-add-instruction']",
+  "addItemBtn": "[data-testid='common-add-item']",
+  "deleteInputsItem": "[data-testid^='delete-inputs.']",
+  "deleteOutputsItem": "[data-testid^='delete-outputs.']",
+  "deleteInputIntructionsItem": "[data-testid^='delete-common-instruction']",
+  "saveRecipesBtn": "[data-testid='save-recipes']",
+  "revertRecipesBtn": "[data-testid='revert-recipes']",
+  "recipeBackBtn": "[data-testid='back-recipes']",
+  "recipeCards": "[data-testid='recipe-cards']",
+  "deleteRecipeBtn": "[data-testid='delete-recipes']",
+  "addInstruction": "[data-testid='common-add-instruction']",
+  "instructionContainer": "[data-testid='common-instruction']"
+}

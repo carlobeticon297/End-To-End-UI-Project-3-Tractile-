@@ -1,0 +1,6 @@
+{
+  "createNewPlanBtn": "[data-testid='create-new-plans']",
+  "repeatInput": "[data-testid='scale-input']",
+  "planListItem": "[data-testid='plan-list-item']",
+  "collapsibleTitle": "[data-testid='collapsible-title']"
+}

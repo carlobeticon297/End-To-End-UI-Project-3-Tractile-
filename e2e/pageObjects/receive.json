@@ -1,0 +1,5 @@
+{
+  "receiveProductCard": "[data-testid='receive-product-card']",
+  "poItemProgress": "[data-testid='po-item-progress']",
+  "selectItemInput": "[data-testid='text-input-outlined']"
+}

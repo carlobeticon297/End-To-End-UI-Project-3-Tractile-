@@ -1,0 +1,13 @@
+{
+  "addOrdersBtn": "[data-testid='create-new-orders']",
+  "orderIdInput": "[data-testid='shortId-input']",
+  "chooseCustomer": "[data-testid='chooseCustomer']",
+  "selectCurrency": "[data-testid='select-currency']",
+  "dateCreated": "[data-testid='orderedDate-input']",
+  "dueDate": "[data-testid='dueDate-input']",
+  "requestedShipDate": "[data-testid='requestedShipDate-input']",
+  "requestedDeliveryDate": "[data-testid='requestedDeliveryDate-input']",
+  "addItemsToOrderBtn": "[data-testid='btn-orders-add-item-to-order']",
+  "saveOrderBtn": "[data-testid='save-order']",
+  "ordersBackBtn": "[data-testid='back-order']"
+}

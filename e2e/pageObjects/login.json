@@ -1,0 +1,6 @@
+{
+  "emailField": "[data-testid='email-input']",
+  "passwordField": "[data-testid='password-input']",
+  "loginButton": "[data-testid='button-login']",
+  "loginErrMsg": "[data-testid='surface']"
+}

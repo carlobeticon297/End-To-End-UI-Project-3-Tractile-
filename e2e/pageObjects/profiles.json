@@ -1,0 +1,18 @@
+{
+  "profilesTab": "[data-testid='Profiles']",
+  "addProfileBtn": "[data-testid='add-in-filter-profiles']",
+  "companyNameInput": "[data-testid='companyName-input']",
+  "companyEmailInput": "[data-testid='companyEmail-input']",
+  "phoneInput": "[data-testid='companyPhone-input']",
+  "websiteInput": "[data-testid='companyWebsite-input']",
+  "businessNumberInput": "[data-testid='businessNumber-input']",
+  "aptInput": "[data-testid='companyAptSuite-input']",
+  "streetInput": "[data-testid='companyAddress-input']",
+  "cityInput": "[data-testid='companyCity-input']",
+  "provinceInput": "[data-testid='companyProvince-input']",
+  "countryInput": "[data-testid='companyCountry-input']",
+  "postalCodeInput": "[data-testid='companyPostalCode-input']",
+  "saveProfileBtn": "[data-testid='save-profile']",
+  "backProfileBtn": "[data-testid='back-profile']",
+  "deleteProfileBtn": "[data-testid='delete-profile']"
+}

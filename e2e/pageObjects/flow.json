@@ -1,0 +1,12 @@
+{
+  "autoLayoutIcon": "[data-testid='autoLayoutIcon']",
+  "zoomFitIcon": "[data-testid='zoomFitIcon']",
+  "zoomInIcon": "[data-testid='zoomInIcon']",
+  "zoomOutIcon": "[data-testid='zoomOutIcon']",
+  "rf_wrapper": "[data-testid='rf__wrapper']",
+  "checkboxReceive": "[data-testid='checkbox-receive']",
+  "checkboxProduce": "[data-testid='checkbox-produce']",
+  "checkboxShip": "[data-testid='checkbox-ship']",
+  "checkboxSell": "[data-testid='checkbox-sell']",
+  "publishChangesBtn": "[data-testid='publish-changes-btn']"
+}

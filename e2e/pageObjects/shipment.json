@@ -1,0 +1,12 @@
+{
+  "addShipmentBtn": "[data-testid='create-new-shipments']",
+  "shortId": "[data-testid='shortId-input']",
+  "selectStatus": "[data-testid='select-status']",
+  "selectCompanyProfile": "[data-testid='select-companyProfileId']",
+  "orderSelectInput": "[data-testid='shipments-assign-an-existing-order']",
+  "notesInput": "[data-testid='notes-input']",
+  "saveShipmentBtn": "[data-testid='save-shipment']",
+  "backButton": "[data-testid='back-shipment']",
+  "shipmentSeclectProvider": "[data-testid='shipments-select-provider']",
+  "deleteShipmentBtn": "[data-testid='delete-shipment']"
+}

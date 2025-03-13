@@ -1,0 +1,4 @@
+{
+  "customersTab": "[data-testid='Customers']",
+  "addCustBtn": "[data-testid='add-in-filter-customers']"
+}
