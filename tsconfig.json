@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "moduleResolution": "Bundler",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ES2022",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@tracktile/*": ["../../packages/*/"],
+      "@bwip-js/*": ["./node_modules/@bwip-js/*"]
+    },
+    "noErrorTruncation": true
+  },
+  "include": ["src/**/*", "stack/**/*", "cypress.config.ts", "index.ts", "app.config.ts", "../../packages/base/src/components/form-signal/form-signal-input.tsx"]
+}
